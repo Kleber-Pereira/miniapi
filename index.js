@@ -6,7 +6,13 @@ app.get("/aluno", (req, res )=> {
                     nome: "Kleber Gonçalves Pereira",
                     disciplina : "Topicos Especiais",
                     curso : "ADS"
+    },
+    {
+                    nome: "Bandido da Luz Vermelha",
+                    disciplina : "Ética",
+                    curso : "ADS"
     }
+    
     res.send(usuario)
 }) ;
 
