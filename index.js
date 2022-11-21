@@ -3,7 +3,7 @@ const app = express();
 
 app.get("/aluno", (req, res )=> {
     let usuario = {
-                    nome: "Claudio Nunes",
+                    nome: "Kleber Gonçalves Pereira",
                     disciplina : "Topicos Especiais",
                     curso : "ADS"
     }
@@ -13,12 +13,12 @@ app.get("/aluno", (req, res )=> {
 app.get("/professores", (req, res )=> {
     let professores  = [ {
                     nome: "David Reis",
-                    disciplina : "Topicos Especiais",
+                    disciplina : "JAVA",
                     curso : "ADS"
     },
     {
         nome: "Alexandre Oliveira Garcia ",
-        disciplina : "O danado do HASKELL",
+        disciplina : "POO",
         curso : "ADS"
 }]
     res.send(professores);
